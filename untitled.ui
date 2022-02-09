@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Programa Python 1</string>
   </property>
   <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">
@@ -23,6 +23,12 @@
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuARchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+   </widget>
+   <addaction name="menuARchivo"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
