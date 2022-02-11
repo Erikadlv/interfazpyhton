@@ -158,4 +158,7 @@
  </widget>
  <resources/>
  <connections/>
+ <slots>
+  <slot>App()</slot>
+ </slots>
 </ui>
