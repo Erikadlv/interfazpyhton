@@ -10,8 +10,16 @@
     <height>277</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <family>FiraCode NF</family>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Programa Python 1</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
@@ -25,8 +33,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Mongolian Baiti</family>
-      <pointsize>16</pointsize>
+      <family>FiraCode NF</family>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -36,14 +44,15 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>10</x>
       <y>150</y>
-      <width>151</width>
+      <width>171</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>FiraCode NF</family>
       <pointsize>14</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -62,6 +71,14 @@
       <height>20</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>FiraCode NF</family>
+     </font>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
@@ -74,8 +91,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Mongolian Baiti</family>
-      <pointsize>16</pointsize>
+      <family>FiraCode NF</family>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -85,16 +102,16 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>30</x>
       <y>20</y>
-      <width>471</width>
+      <width>411</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Mongolian Baiti</family>
-      <pointsize>28</pointsize>
+      <family>FiraCode NF</family>
+      <pointsize>19</pointsize>
      </font>
     </property>
     <property name="text">
@@ -112,8 +129,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Mongolian Baiti</family>
-      <pointsize>16</pointsize>
+      <family>FiraCode NF</family>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
