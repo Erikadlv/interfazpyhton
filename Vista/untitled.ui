@@ -25,8 +25,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>90</y>
+      <x>280</x>
+      <y>80</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -65,9 +65,9 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>150</y>
-      <width>171</width>
+      <x>10</x>
+      <y>90</y>
+      <width>261</width>
       <height>20</height>
      </rect>
     </property>
@@ -135,6 +135,16 @@
     </property>
     <property name="text">
      <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>150</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
     </property>
    </widget>
   </widget>
