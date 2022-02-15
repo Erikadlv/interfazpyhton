@@ -5,7 +5,7 @@ import pandas as pd
 from PyQt5.QtWidgets import QApplication, QWidget, QInputDialog, QLineEdit, QFileDialog
 
 class DataFrame():
-    def reading(self,direccion):
-        df = pd.read_csv(direccion)
+    def reading(direccion):
+        df = pd.read_csv(direccion, header=None,encoding='latin-1')
         # df.head()
         print(df)
