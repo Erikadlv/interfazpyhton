@@ -2,4 +2,4 @@ BaseDatos.csv
 .idea
 __pycache__
 .vscode
-.csv
+*.csv
