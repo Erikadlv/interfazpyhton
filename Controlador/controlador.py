@@ -1,6 +1,8 @@
 import sys
 sys.path.append('../Vista')
+sys.path.append('../Modelo')
 from interfaz_ui import *
+from modelo import *
 from PyQt5.QtWidgets import QApplication, QWidget, QInputDialog, QLineEdit, QFileDialog
 from PyQt5.QtGui import QIcon
 
@@ -11,6 +13,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.pushButton.clicked.connect(self.openFileNameDialog)
         # self.pushButton.clicked.connect(self.selectFile)
+        self.pushButton_3.clicked.connect(self.words)
     
     
     def openFileNameDialog(self):
@@ -35,8 +38,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         if fileName:
             print(fileName)
             
-    def selectFile(self):
-        self.lineEdit.setText(QFileDialog.getOpenFileName())
+    def words(self):
+        direccion = self.lineEdit.text()
+        DataFrame.reading(self,direccion)
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication([])
