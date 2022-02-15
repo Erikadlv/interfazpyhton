@@ -40,7 +40,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             
     def words(self):
         direccion = self.lineEdit.text()
-        DataFrame.reading(self,direccion)
+        DataFrame.reading(direccion)
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication([])
