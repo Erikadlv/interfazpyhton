@@ -13,7 +13,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.pushButton.clicked.connect(self.openFileNameDialog)
         # self.pushButton.clicked.connect(self.selectFile)
-        self.pushButton_3.clicked.connect(self.words)
+        self.pushButton_2.clicked.connect(self.words)
+        self.pushButton_3.clicked.connect(self.palabra)
     
     
     def openFileNameDialog(self):
@@ -41,6 +42,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def words(self):
         direccion = self.lineEdit.text()
         DataFrame.reading(direccion)
+    
+    def palabra(self):
+        palabras = self.lineEdit_2.text()
+        DataFrame.addWord(palabras)
+        self.lineEdit_2.setText('')
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication([])
