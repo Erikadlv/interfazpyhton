@@ -11,12 +11,11 @@ class Histo():
         for caracter in quitar:
             texto = texto.replace(caracter,
                                 "")  # Remplazarlo por "nada"; es decir, removerlo
-        # Lo convertimos a minúsculas pues una palabra mayúscula y minúscula cuenta como una sola
+        #Convertir letras mayus a minus
         texto = texto.lower()
-        # Las palabras están separadas por un espacio así que convertimos la cadena a arreglo
+        #Separar palabras
         palabras = texto.split(" ")
-        # Ahora vamos a contar las palabras creando un diccionario. En este caso la clave del diccionario
-        # será la palabra, y el valor será el conteo
+        #Contar palabras
         diccionario_frecuencias = {}
         for palabra in palabras:
             if palabra in diccionario_frecuencias:
