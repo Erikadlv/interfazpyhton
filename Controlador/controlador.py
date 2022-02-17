@@ -4,6 +4,7 @@ sys.path.append('../Modelo')
 from interfaz_ui import *
 from modelo import *
 from histograma import *
+from cloud import *
 from PyQt5.QtWidgets import QApplication, QWidget, QInputDialog, QLineEdit, QFileDialog
 from PyQt5.QtGui import QIcon
 
@@ -17,6 +18,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.pushButton_2.clicked.connect(self.words)
         self.pushButton_3.clicked.connect(self.palabra)
         self.pushButton_5.clicked.connect(self.ghisto)
+        self.pushButton_4.clicked.connect(self.nub)
     
     
     def openFileNameDialog(self):
@@ -53,6 +55,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         palabras = self.lineEdit_2.text()
         DataFrame.addWord(palabras)
         self.lineEdit_2.setText('')
+        
+    def nub(self):
+        direccion = self.lineEdit.text()
+        nube.cloudWord(direccion)
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication([])
