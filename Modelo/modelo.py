@@ -15,7 +15,7 @@ class DataFrame():
         for Texto in palabra:
             filtro = df[df['Texto'].str.match(Texto+ r'\b',case=False)]
             print(filtro)
-            filtro.to_csv('../prueba.csv', encoding='utf-8' )
+        filtro.to_csv('../prueba.csv', encoding='utf-8' )
             
     def addWord(palabras):
         palabra.append(palabras)
