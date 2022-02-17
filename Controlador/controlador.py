@@ -3,6 +3,7 @@ sys.path.append('../Vista')
 sys.path.append('../Modelo')
 from interfaz_ui import *
 from modelo import *
+from histograma import *
 from PyQt5.QtWidgets import QApplication, QWidget, QInputDialog, QLineEdit, QFileDialog
 from PyQt5.QtGui import QIcon
 
@@ -15,6 +16,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         # self.pushButton.clicked.connect(self.selectFile)
         self.pushButton_2.clicked.connect(self.words)
         self.pushButton_3.clicked.connect(self.palabra)
+        self.pushButton_5.clicked.connect(self.ghisto)
     
     
     def openFileNameDialog(self):
@@ -42,6 +44,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def words(self):
         direccion = self.lineEdit.text()
         DataFrame.reading(direccion)
+
+    def ghisto(self):
+        direccion = self.lineEdit.text()
+        Histo.Histograma(direccion)
     
     def palabra(self):
         palabras = self.lineEdit_2.text()
