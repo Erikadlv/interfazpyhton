@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>503</width>
-    <height>384</height>
+    <width>561</width>
+    <height>429</height>
    </rect>
   </property>
   <property name="font">
@@ -43,135 +43,13 @@ color: #0000FF
    <enum>Qt::ToolButtonIconOnly</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>80</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS Shell Dlg 2</family>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Cargar Archivo</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>90</y>
-      <width>241</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>FiraCode NF</family>
-     </font>
-    </property>
-    <property name="frame">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>200</y>
-      <width>171</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Mongolian Baiti</family>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Guardar Archivo</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>150</y>
-      <width>181</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Mongolian Baiti</family>
-      <pointsize>11</pointsize>
-     </font>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="readOnly">
-     <bool>false</bool>
-    </property>
-    <property name="placeholderText">
-     <string>Escriba la plabra clave</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>260</y>
-      <width>191</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Mongolian Baiti</family>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Nube de Palabras</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_5">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>260</y>
-      <width>181</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Mongolian Baiti</family>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Histograma</string>
-    </property>
-   </widget>
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>20</y>
-      <width>491</width>
-      <height>301</height>
+      <y>0</y>
+      <width>541</width>
+      <height>391</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -202,8 +80,8 @@ color: #0000FF
     <widget class="QPushButton" name="pushButton_3">
      <property name="geometry">
       <rect>
-       <x>340</x>
-       <y>130</y>
+       <x>400</x>
+       <y>140</y>
        <width>81</width>
        <height>41</height>
       </rect>
@@ -221,9 +99,9 @@ color: #0000FF
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>130</y>
-       <width>141</width>
+       <x>20</x>
+       <y>140</y>
+       <width>171</width>
        <height>21</height>
       </rect>
      </property>
@@ -239,21 +117,155 @@ color: #0000FF
       <string>Palabra Clave:</string>
      </property>
     </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>140</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Mongolian Baiti</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Escriba la plabra clave</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>200</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Mongolian Baiti</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Guardar Archivo</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>60</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Cargar Archivo</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>FiraCode NF</family>
+      </font>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>250</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Mongolian Baiti</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Nube de Palabras</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>250</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Mongolian Baiti</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Histograma</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>320</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Mongolian Baiti</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Red Neuronal</string>
+     </property>
+    </widget>
    </widget>
-   <zorder>frame</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
-   <zorder>pushButton_4</zorder>
-   <zorder>pushButton_5</zorder>
-   <zorder>lineEdit_2</zorder>
-   <zorder>lineEdit</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>503</width>
+     <width>561</width>
      <height>21</height>
     </rect>
    </property>
