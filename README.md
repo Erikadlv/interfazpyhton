@@ -35,3 +35,13 @@
 
 > OJO: Debes usar MVC y el código de la lógica de negocios debe estar en
 > POO.
+
+
+- Red neuronal:
+Adapta el ejemplo de red neuronal proporcionado para que funcione con POO
+La red neuronal debe leer un csv que será el training set y entrenar la red
+
+
+- Menú red neuronal:
+Debe dar la opción para leer un training set (csv) que servirá para entrenar la red neuronal, debe avisar que el procedimiento de entrenamiento a terminado
+Debe dar la opción  de poder introducir una pregunta a red neuronal, sobre nuevas situaciones y dar respuesta a esta pregunta
